@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class CarFactory:
     robot_name = "Rb1.1"
-    assembled_autos = []    # is it good practice to declare class static variable? or should we declare them outside our class?
+    assembled_autos = []  
     assembled_manuals = []
 
     def get_car(self, engine, car_type, info):
